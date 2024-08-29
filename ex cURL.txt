@@ -1,0 +1,6 @@
+curl --location 'http://localhost:6000/encrypt' \
+--header 'Content-Type: application/json' \
+--data '{
+    "data": "{\"authKey\":\"SYtest21\",\"iccid\":\"8985207180040554807\"}"
+}
+'
